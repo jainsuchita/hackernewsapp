@@ -14,7 +14,6 @@ const ShowStories = ({ type }) => {
           <Story key={story.id} story={story} />
         ))}
       </>
-      )}
     </>
   );
 };
